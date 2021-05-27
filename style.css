@@ -1,0 +1,57 @@
+.img-1 {
+overflow: hidden;
+float: left;
+margin: 0 20px 0 0;
+}
+.img-2 {
+border-style: none;
+overflow: hidden;
+}
+.bl1 {
+width: 635px;
+overflow: hidden;
+border-radius: 5px;
+border: 1px solid white;
+overflow: hidden;
+transition: transform 0.3s;
+display: block;
+}
+.bl1:hover {
+transform: scale(1.06);
+overflow: hidden;
+display: block;
+cursor: pointer;
+opacity: 0.8;
+}
+.bl2 {
+width: 475px;
+transition: transform 0.3s;
+overflow: hidden;
+border-radius: 5px;
+border: 1px solid white;
+overflow: hidden;
+display: block;
+}
+.bl2:hover {
+transform: scale(1.06);
+overflow: hidden;
+display: block;
+cursor: pointer;
+opacity: 0.8;
+}
+.bl3 {
+width: 475px;
+transition: transform 0.3s;
+overflow: hidden;
+border-radius: 5px;
+border: 1px solid white;
+overflow: hidden;
+display: block;
+cursor: pointer;
+}
+.bl3:hover {
+transform: scale(1.06);
+overflow: hidden;
+display: block;
+opacity: 0.8;
+}
