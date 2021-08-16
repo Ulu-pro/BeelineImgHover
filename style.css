@@ -1,6 +1,11 @@
 body{
 background:#000
 }
+body,.box{
+display: flex;
+align-items: center;
+justify-content: center
+}
 .img-1 {
 overflow: hidden;
 float: left;
@@ -14,13 +19,12 @@ overflow: hidden
 width: 635px;
 overflow: hidden;
 border-radius: 5px;
-border: 1px solid white;
 overflow: hidden;
 transition: transform 0.3s;
 display: block
 }
 .bl1:hover {
-transform: scale(1.06);
+transform: scale(1.1);
 overflow: hidden;
 display: block;
 cursor: pointer;
@@ -31,12 +35,11 @@ width: 475px;
 transition: transform 0.3s;
 overflow: hidden;
 border-radius: 5px;
-border: 1px solid white;
 overflow: hidden;
 display: block
 }
 .bl2:hover {
-transform: scale(1.06);
+transform: scale(1.1);
 overflow: hidden;
 display: block;
 cursor: pointer;
@@ -47,13 +50,12 @@ width: 475px;
 transition: transform 0.3s;
 overflow: hidden;
 border-radius: 5px;
-border: 1px solid white;
 overflow: hidden;
 display: block;
 cursor: pointer
 }
 .bl3:hover {
-transform: scale(1.06);
+transform: scale(1.1);
 overflow: hidden;
 display: block;
 opacity: 0.8
